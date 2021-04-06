@@ -3,9 +3,9 @@
 // https://github.com/discord/discord-api-docs
 const Discord = require('discord.js');
 const express = require('express');
-const ytdl = require('ytdl-core');
 const config = require('./config');
-const fbi = require('./FBIcommands.js');
+const ytdl = require('ytdl-core');
+const fbi = require('./commands/commandHandler.js');
 const client = new Discord.Client();
 
 const port = process.env.PORT;
@@ -20,5 +20,5 @@ client.once('ready', () => {
 client.login(config.token);
 
 client.on('message', message => {
-    fbi.commands(message, ytdl)
+    fbi.commandHandler(message, ytdl);
 })
