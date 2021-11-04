@@ -1,9 +1,13 @@
 const ping_text = "pong";
 const frank_text = "sup frank";
-const matthew_text = "roll for deception";
+const matthew_text = "!roll 1d20 for deception";
+const andres_text = "immersion broken";
 const jesus_text = "how are thou GOD?";
 const kevin_text = "that was BASED";
 const omar_text = "DAAAAANNNGG";
+const lykos_text = "sorry, what???";
+const insta_text = "careful, he's at that age";
+const usopp_text = "usopp rubber band of dooooom";
 const water_text = "@here Hourly reminder to drink water";
 const unknown_text = "I don't recognize that command";
 const open_up_text = {
@@ -29,9 +33,13 @@ module.exports = {
     ping_text,
     frank_text,
     matthew_text,
+    andres_text,
     jesus_text,
     kevin_text,
     omar_text,
+    lykos_text,
+    insta_text,
+    usopp_text,
     water_text,
     unknown_text,
     open_up_text,
