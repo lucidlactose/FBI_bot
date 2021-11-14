@@ -9,8 +9,8 @@ module.exports = {
     "jesus": messages.jesus_text,
     "kevin": messages.kevin_text,
     "omar": messages.omar_text,
-    "lykos": methods.lykos,
-    "insta": methods.insta,
+    "lykos": methods.lykos_text,
+    "insta": methods.insta_text,
     "usopp": messages.usopp_text,
     "water": messages.water_text,
 
