@@ -16,7 +16,6 @@ const commandHandler = (message, ytdl) => {
         } else if (typeof commands[args[0]] == 'function') {
             commands[args[0]]({message, ytdl});
         } else {
-            console.log(typeof commands[args[0]])
             message.channel.send(commands["unknown"]);
         }
     }
